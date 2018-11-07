@@ -1,0 +1,21 @@
+#welcome-section {
+    
+    height: calc(100vh - 59px);
+    background: linear-gradient(rgb(167, 76, 202) 50%, rgb(205, 130, 235));
+    margin-top: 59px;
+    position: relative;
+    
+}
+
+#welcome-section .section-header {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 768px){
+    #welcome-section {
+        margin-top: 39px;
+    }
+}
+    

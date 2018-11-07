@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Press Start 2P', sans-serif;
+    margin: 0;
+}
+
+p {
+    font-size: 30px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.section {
+    padding: 175px 50px 0px;
+}
+
+.section-header h1 {
+    margin: 0;
+    font-size: 60px;
+}
+
+.section-header p {
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+    .section-header p {
+        font-size: 14px;
+    }
+
+    .section-header h1 {
+        font-size: 16px;
+    }
+}
+
+
+
+
